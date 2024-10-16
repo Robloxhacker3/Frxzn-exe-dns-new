@@ -80,6 +80,8 @@
                         <string>search.apple.com</string>               <!-- Apple search services -->
                         <string>update.apple.com</string>               <!-- Apple Update services -->
                     </array>
+                    <key>PayloadVersion</key>
+                    <integer>1</integer> <!-- Added Payload Version for AdBlocker -->
                 </dict>
             </dict>
         </array>
