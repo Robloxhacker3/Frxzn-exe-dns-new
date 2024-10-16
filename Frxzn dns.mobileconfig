@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://apple.dns.nextdns.io/aff4ad</string>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Made using .mobileconfig maker by FRXZN</string>
+                <key>PayloadDisplayName</key>
+                <string>Anti-Revoke + Blacklist</string>
+                <key>PayloadIdentifier</key>
+                <string>com.frxzn.anti-revoke</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>00008101-0003558A01E9A01E</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+            <dict>
+                <key>AdBlockerSettings</key>
+                <dict>
+                    <key>BlockedDomains</key>
+                    <array>
+                        <!-- Ad domains -->
+                        <string>ads.example.com</string>
+                        <string>ad.doubleclick.net</string>
+                        <string>pagead2.googlesyndication.com</string>
+                        <string>static.ads-twitter.com</string>
+                        <string>track.adform.net</string>
+                        <string>analytics.example.com</string>
+
+                        <!-- Fully block Apple-related domains -->
+                        <string>apple.com</string>                      <!-- General Apple domain -->
+                        <string>www.apple.com</string>                  <!-- Main Apple website -->
+                        <string>support.apple.com</string>              <!-- Apple support services -->
+                        <string>api.apple.com</string>                  <!-- General API services -->
+                        <string>gs.apple.com</string>                   <!-- Apple service domains -->
+                        <string>appleid.apple.com</string>              <!-- Apple ID services -->
+                        <string>secure-appldnld.apple.com</string>      <!-- App downloads -->
+                        <string>ocsp.apple.com</string>                 <!-- Apple's OCSP server -->
+                        <string>crl.apple.com</string>                  <!-- Certificate Revocation List for Apple -->
+                        <string>ocsp.digicert.com</string>              <!-- Common OCSP server -->
+                        <string>dsa.apple.com</string>                  <!-- Device Services API for Apple -->
+                        <string>api.icloud.com</string>                 <!-- iCloud API -->
+                        <string>device-service.apple.com</string>       <!-- Device Services -->
+                        <string>p12.apple.com</string>                  <!-- Apple push notifications -->
+                        <string>setup.icloud.com</string>               <!-- iCloud setup -->
+                        <string>sandbox.icloud.com</string>             <!-- iCloud sandbox environment -->
+                        <string>privacy.apple.com</string>              <!-- Privacy services -->
+                        <string>mesu.apple.com</string>                 <!-- iOS Software Update Server -->
+                        <string>www.icloud.com</string>                  <!-- iCloud website -->
+                        <string>cloudkit.apple.com</string>             <!-- CloudKit services -->
+                        <string>appstore.com</string>                   <!-- App Store services -->
+                        <string>itunes.apple.com</string>               <!-- iTunes services -->
+                        <string>tv.apple.com</string>                   <!-- Apple TV services -->
+                        <string>music.apple.com</string>                <!-- Apple Music services -->
+                        <string>news.apple.com</string>                 <!-- Apple News services -->
+                        <string>maps.apple.com</string>                 <!-- Apple Maps services -->
+                        <string>find-my-iphone.apple.com</string>      <!-- Find My iPhone services -->
+                        <string>find-my-mac.apple.com</string>         <!-- Find My Mac services -->
+                        <string>push.apple.com</string>                 <!-- Apple Push Notification Service -->
+                        <string>events.apple.com</string>               <!-- Apple Events -->
+                        <string>dl.dropboxusercontent.com</string>     <!-- Dropbox user data, often used for Apple app sharing -->
+                        <string>www.googletagmanager.com</string>       <!-- Google Tag Manager -->
+                        <string>m.apple.com</string>                    <!-- Mobile version of Apple services -->
+                        <string>mdisk.apple.com</string>                <!-- Apple Media Disk -->
+                        <string>phobos.apple.com</string>               <!-- Apple Music and Podcast management -->
+                        <string>api.music.apple.com</string>           <!-- Apple Music API -->
+                        <string>tv.apple.com</string>                   <!-- Apple TV API -->
+                        <string>api.push.apple.com</string>             <!-- Apple Push Notifications API -->
+                        <string>search.apple.com</string>               <!-- Apple search services -->
+                        <string>update.apple.com</string>               <!-- Apple Update services -->
+                    </array>
+                </dict>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>A anti-revoke + blacklist DNS configuration</string>
+        <key>PayloadDisplayName</key>
+        <string>Anti-Revoke + Blacklist</string>
+        <key>PayloadOrganization</key>
+        <string>FRXZN DNS OUT!</string>
+        <key>PayloadIdentifier</key>
+        <string>com.frxzn.anti-revoke.dns</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>00008101-0003558A01E9A01E</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadScope</key>
+        <string>System</string>
+    </dict>
+</plist>
